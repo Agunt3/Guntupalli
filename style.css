@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.header-outer{
+	margin: auto;
+    /*width: 85%;*/
+    background:purple;
+}
+.main-header{
+	margin: 0 auto 0 auto;
+    width: 100%;
+    padding: 0 35px;
+    top: 0;
+    background: #ffffff;
+}
+.clear{
+	clear:both;
+}
+.logo-side{
+	width:25%;
+	float:left;
+}
+.logo-side h1{
+	background:#333333;
+	color:#ffffff;
+	padding:10px 0;
+	font-size:22px;
+	text-align:center;
+}
+.menu-side{
+	width:75%;
+	float:right;
+	text-align:right;
+}
+.menu-side ul{
+	margin:30px 0 0 0;
+	padding:0;
+	float:right;
+}
+.menu-side ul li{
+	float:left;
+	margin:0 0 0 20px;
+	padding:0;
+	list-style-type:none;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.menu-side ul li a{
+	color:#000000;
+	text-decoration:none;
+}
+.about-section{
+	margin:50px auto 50px auto;
+	padding:10px 15px;
+	text-align:inherit;
+	width:85%;
+	background: #333;
+	color: #eff3fd;
+	
+}
+.about-section h2{
+	font-size:40px;
+	text-align:left;
+	color:purple;
+	line-height:50px;
+}
+
+.bio-image{
+	width:40%;
+	float:left;
+}
+.bio-image img{
+	width:100%;
+}
+.bio-text{
+	width:55%;
+	float:left;
+	text-align: left;
+	padding:0 20px;
+	
+}
+.bio-text p{
+	font-size:16px;
+	color:white;
+	line-height:28px;
+}
+.papers-section{
+	margin:50px auto;
+	padding:0;
+	width:85%;
+}
+.papers-section h6{
+	font-size:45px;
+    color:purple;
+	padding:25px 0;
+	text-align:left;
+	margin:0;
+}
+.papers-section ul{
+	margin:0 0 25px;
+	padding:0;
+}
+.papers-section li{
+	margin:0 25px 0 0;
+	padding:30px 0;
+	background:#eff3fd;
+	list-style-type:inherit;
+	text-align:center;
+	width:30%;
+	float:left;
+	border:1px solid #333333;
+	min-height: 185px;
+}
+.papers-section li h3{
+	font-size:14px;
+	color:#333333;
+	padding:0 0 10px 0;
+}
+.papers-section li h2{
+	font-size:18px;
+	color:#333333;
+	padding:0 0 20px 0;
+	min-height: 45px;
+}
+.papers-section li button{
+	margin:0;
+	padding:10px 0;
+	border:none;
+	background:#333;
+	color:#fff;
+	width:50%;
+	cursor:pointer;
+
+}
+.hobbies-section{
+	margin:50px auto;
+	width:85%;
+	padding:0;
+	background-color:#333;
+}
+.hobbies-section h2{
+	font-size:40px;
+	text-align:center;
+	color:purple;
+	line-height:50px;
+}
+.hobby{
+	margin:0;
+	padding:0;
+	width:60%;
+	float:left;
+}
+.hobby ol li{
+	line-height:30px;
+	font-size:16px;
+}
+.contact-section{
+	margin:50px auto;
+	padding:10px;
+	width:85%;
+}
+.contact-section h5{
+	font-size:45px;
+	color:#333333;
+	padding:20px 0;
+	text-align:center;
+	margin:0;
+}
+.contact-section ul{
+	margin:0 0 25px;
+	padding:0;
+}
+.contact-section li{
+	margin:0 0 25px 0;
+	padding:30px 0;
+	list-style-type:none;
+	text-align:center;
+	width:25%;
+	float:left;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+  position: relative;
+  max-width: 120%;
+}
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item h3{
+	font-size:14px;
+	color:#333333;
+	padding:0 0 10px 0;
+}
+.grid-item h4{
+	font-size:18px;
+	color:#333333;
+	padding:0 0 10px 0;
+}
+.grid-item h2{
+	font-size:18px;
+	color:#333333;
+	padding:0 0 20px 0;
+	min-height: 45px;
+}
+
+.grid-item p{
+	font-size:14px;
+	color:#333333;
+	padding:0 0 10px 0;
+	line-height:27px;
+}
+.grid-item button{
+	margin:0;
+	padding:10px 0;
+	border:none;
+	background:#333;
+	color:yellow;
+	width:50%;
+	cursor:pointer;
+}
